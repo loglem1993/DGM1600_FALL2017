@@ -13,11 +13,26 @@ public class LogicalOp : MonoBehaviour {
 
 	public string lightside = "Obi Wan";
 
+	public float num1 = 10;
+
+	public float num2 = 10.5f;
+
 
 public bool leia = true; 
 
 	// Use this for initialization
 	 void Start () {
+		if(num1 == 10 && num2 == 10.5){
+			print("Yes!");
+		}
+		else if (num1 == 10 && num2 == 10){
+			print ("noooo!");
+}
+		else {
+
+	print("try again");
+}
+	
 	// if(luke == "jedi" && vader == "sith" ){
 	// 	print("vaders yo nanny!");
 	// 	}		
@@ -41,16 +56,16 @@ public bool leia = true;
 	// else {
 	// 	print("han fired first");
 	// }
-	if(lightside == "Obi Wan" || darkside == "Jar Jar Binks"){
-		print("Meeza Evil Bad Bad Sith Lorda");
-	} 
-	 else if(lightside == "Boba fett" || darkside == "Darth Maul"){
-		 print("As you wish, my master");
-	 }
-	 else {
-		 print("not the younglings"); 
-	 }
-	 }
+	// if(lightside == "Obi Wan" || darkside == "Jar Jar Binks"){
+	// 	print("Meeza Evil Bad Bad Sith Lorda");
+	// } 
+	//  else if(lightside == "Boba fett" || darkside == "Darth Maul"){
+	// 	 print("As you wish, my master");
+	//  }
+	//  else {
+	// 	 print("not the younglings"); 
+	//  }
+ }
 
 	// Update is called once per frame
 	void Update () {
