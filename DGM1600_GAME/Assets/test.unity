@@ -196,6 +196,7 @@ GameObject:
   m_Component:
   - component: {fileID: 849339894}
   - component: {fileID: 849339893}
+  - component: {fileID: 849339895}
   m_Layer: 0
   m_Name: Game_Manager
   m_TagString: Untagged
@@ -234,6 +235,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &849339895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 849339892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b434ebcb6e22343a2a49199495f7a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  luke: jedi
+  vader: sith
+  darkside: Darth Maul
+  lightside: padme
+  num1: 10
+  num2: 10
+  leia: 0
 --- !u!1 &1148905487
 GameObject:
   m_ObjectHideFlags: 0
