@@ -199,6 +199,7 @@ GameObject:
   - component: {fileID: 849339895}
   - component: {fileID: 849339897}
   - component: {fileID: 849339896}
+  - component: {fileID: 849339898}
   m_Layer: 0
   m_Name: Game_Manager
   m_TagString: Untagged
@@ -212,7 +213,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 849339892}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bdf7d2a08b8ca3246b5de5f5956ce4bf, type: 3}
   m_Name: 
@@ -243,7 +244,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 849339892}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 18b434ebcb6e22343a2a49199495f7a0, type: 3}
   m_Name: 
@@ -261,7 +262,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 849339892}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4768c1b1c1d68234a94759059994c222, type: 3}
   m_Name: 
@@ -279,6 +280,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bottles: 100
+--- !u!114 &849339898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 849339892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef217103923c9824c8428fa4aa1512da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  laserblast: 3
 --- !u!1 &1148905487
 GameObject:
   m_ObjectHideFlags: 0
